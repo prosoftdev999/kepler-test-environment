@@ -1,0 +1,11 @@
+{
+    "task": {
+        "path": "."
+    },
+    "trial_name": "kepler__sczopDd",
+    "trials_dir": "jobs/2026-08-13__14-21-19",
+    "agent": {
+        "name": "nop"
+    },
+    "job_id": "fb76afe0-384a-42d0-8558-2f8836b8bf63"
+}

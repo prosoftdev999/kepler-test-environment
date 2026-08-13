@@ -1,0 +1,48 @@
+artifacts = ["/app/output.txt"]
+
+[task]
+name = "afterquery/harbor-smoke-test"
+
+[metadata]
+author_name = "REPLACE_WITH_YOUR_NAME"
+author_email = "REPLACE_WITH_YOUR_EMAIL"
+
+difficulty_explanation = """
+This is a local Harbor smoke test only. It is intentionally easy and must
+not be submitted as a Frontier Bench task.
+"""
+
+solution_explanation = """
+The reference solution calculates the sum of the squares of the integers
+from 1 through 100 and writes the result to /app/output.txt.
+"""
+
+verification_explanation = """
+The verifier checks that /app/output.txt exists, contains an integer,
+and contains the mathematically correct result.
+"""
+
+category = "Software"
+subcategory = "Algorithms"
+tags = ["python", "debugging"]
+
+expert_time_estimate_hours = 1
+
+relevant_experience = """
+LOCAL TEST ONLY - replace this with your genuine relevant professional
+experience before creating a real submission.
+"""
+
+[verifier]
+timeout_sec = 120.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 120.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0
